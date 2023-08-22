@@ -1,0 +1,221 @@
+@media (min-width: 320px) {
+  .links-list {
+    width: 100%;
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #126177a2;
+  }
+
+  .links-list li {
+    padding: 15px 0 15px 15px;
+    margin-left: 0px;
+  }
+
+  .toggle-menu {
+    padding: 30px 0;
+    display: inline-block;
+  }
+
+  .toggle-menu:hover + .links-list,
+  .links-list:hover {
+    display: flex;
+  }
+
+  .slide-show {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .slide i {
+    display: none;
+  }
+
+  .service {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .design-features img {
+    display: none;
+  }
+
+  .desc {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .status {
+    width: 100%;
+  }
+
+  .testimonials,
+  .skills {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .comment-card {
+    text-align: center;
+    flex-flow: column wrap;
+  }
+
+  .comment {
+    width: 100%;
+  }
+
+  .comment p:nth-child(1) {
+    margin-top: 25px;
+  }
+
+  .plan {
+    width: 100%;
+  }
+
+  .m-15 {
+    margin: 0;
+  }
+
+  .subscribe form,
+  .subscribe p {
+    width: 90%;
+    margin: 25px auto;
+    text-align: center;
+  }
+
+  .message-form {
+    width: 100%;
+    order: 2;
+  }
+
+  .contact-detailes {
+    width: 100%;
+    order: 1;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .contact-detailes div:nth-child(1) {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 920px) {
+  .links-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: initial;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+
+  .links-list li {
+    padding: 30px 0;
+    margin-left: 25px;
+  }
+
+  .toggle-menu {
+    display: none;
+  }
+
+  .search i {
+    margin-left: 25px;
+  }
+
+  .slide-show {
+    width: 60%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .slide i {
+    display: initial;
+  }
+
+  .service {
+    width: calc(50% - 15px);
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .design-features img {
+    display: inline;
+  }
+
+  .desc {
+    width: 50%;
+  }
+
+  .project {
+    width: 25%;
+  }
+
+  .status {
+    width: calc(100% / 4);
+  }
+
+  .testimonials,
+  .skills {
+    width: calc((100% - 40px) / 2);
+    margin-bottom: 0;
+  }
+
+  .comment-card {
+    text-align: left;
+    flex-flow: row wrap;
+  }
+
+  .comment {
+    width: calc(100% - 150px);
+  }
+
+  .comment p:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .plan {
+    width: calc((100% - 30px) / 3);
+  }
+
+  .m-15 {
+    margin: 0 15px 15px;
+  }
+  .subscribe form {
+    width: 40%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .subscribe p {
+    width: 55%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .message-form {
+    width: calc(80% - 20px);
+    order: 1;
+  }
+
+  .contact-detailes {
+    width: calc(20% - 10px);
+    order: 2;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .contact-detailes div:nth-child(1) {
+    margin-bottom: 80px;
+  }
+}
