@@ -1,4 +1,4 @@
-# Elzero Web School - Leon Template
+# Elzero Web School - Kasper Template
 
 This is a solution to the [HTML And CSS Practice On Template Two from Elzero Web School](https://elzero.org/html-css-practice-template-two/).
 
